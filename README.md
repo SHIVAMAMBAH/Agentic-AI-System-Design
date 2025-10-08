@@ -137,7 +137,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 
 ### 5.3 Executor & Verifier
 
-**Goal:** Execute subtasks, verify results, and check intermediate consistency.
+**Goal:** Execute subtasks, verify results, and check intermediate consistency and we will be using the following datset for it https://huggingface.co/datasets/D3xter1922/proofwriter-dataset
 
 **Verification Strategies:**
 
