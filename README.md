@@ -113,7 +113,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 
 ### 5.2 Planner & Tool Mapper
 
-**Goal:** Assign each subproblem to the most efficient solving mechanism.
+**Goal:** Assign each subproblem to the most efficient solving mechanism and we will be using T5-small on the dataset and is available at https://math-qa.github.io/
 
 | Subproblem Type | Tool/Method                   | Example                       |
 | --------------- | ----------------------------- | ----------------------------- |
