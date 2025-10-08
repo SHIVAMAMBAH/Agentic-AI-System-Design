@@ -100,7 +100,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 **Goal:** Convert a raw natural language problem into atomic subproblems.
 **Techniques:**
 
-* Lightweight LLM (*TinyLlama-1.1B*) for task segmentation.
+* we are using T5-small and training it on GSM8K and is available at https://raw.githubusercontent.com/openai/grade-school-math/refs/heads/master/grade_school_math/data/train.jsonl
 
 **Output Example:**
 
