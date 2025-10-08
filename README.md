@@ -68,7 +68,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
              ▼
 ┌──────────────────────────┐
 │  1. Problem Decomposer    │
-│  - LLM hybrid(TinyLlama-1.1B)
+│  - LLM hybrid(T5-small)
 │  - Generates subproblems  │
 └────────────┬──────────────┘
              ▼
