@@ -160,25 +160,6 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 
 ---
 
-### 5.4 Reasoning Trace Generator
-
-**Goal:** Produce human-readable, auditable reasoning logs.
-
-**Trace Structure:**
-
-```json
-{
-  "trace": [
-    "Step 1: Identified relative motion problem.",
-    "Step 2: Computed relative speed = 60 + 40 = 100 km/h.",
-    "Step 3: Calculated meeting time = 200 / 100 = 2 hours.",
-    "Step 4: Verified result using symbolic solver. Verification passed."
-  ],
-  "final_answer": "2 hours"
-}
-```
-
----
 
 ## 6.  Tool Registry
 
@@ -226,15 +207,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 4. **Verify:**
 
    * Alternate check via complementary probability: 1 – (2/10) = 0.8 → matches.
-5. **Generate Trace:**
 
-   ```
-   Step 1: Count total balls = 10.
-   Step 2: Not green = 8.
-   Step 3: Probability = 8/10 = 0.8.
-   Step 4: Verified by complement rule.
-   Final Answer: 0.8
-   ```
 
 ---
 
@@ -245,8 +218,6 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 | **Phase 1** | Core architecture   | Implement decomposer, planner, and executor modules. |
 | **Phase 2** | Tool integration    | Add symbolic, logical, and numerical solvers.        |
 | **Phase 3** | Verification logic  | Implement redundancy checks and tolerance metrics.   |
-| **Phase 4** | Reasoning trace     | Develop structured and human-readable logging.       |
-| **Phase 5** | Dataset integration | Evaluate and fine-tune on benchmark dataset.         |
 
 ---
 
@@ -276,7 +247,6 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 ```
 agentic_reasoning_system/
 ├── decomposer/
-│   ├── rule_based.py
 │   └── llm_based.py
 ├── planner/
 │   └── tool_selector.py
@@ -286,10 +256,7 @@ agentic_reasoning_system/
 │   └── calculator.py
 ├── verifier/
 │   └── consistency_checker.py
-├── trace/
-│   └── trace_logger.py
 ├── datasets/
-│   └── logic_problems.json
 ├── main.py
 └── README.md
 ```
