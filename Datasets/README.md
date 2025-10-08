@@ -5,3 +5,7 @@
 ### Dataset for Tool Mapper is MathQA
 - **Description**: Math problems labeled by operation type (e.g., addition, ratio, geometry).
 - **Why it's useful**: Use labels to train tool selection logic (e.g., choose SymPy if symbolic).
+
+### Verification & Logical Reasoning is ProofWriter
+- **Description**: Natural language deduction problems with reasoning chains.
+- **Why it's useful**: Train verifier to check logical consistency.
