@@ -68,7 +68,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
              ▼
 ┌──────────────────────────┐
 │  1. Problem Decomposer    │
-│  - LLM hybrid│
+│  - LLM hybrid(Phi-3-mini)
 │  - Generates subproblems  │
 └────────────┬──────────────┘
              ▼
