@@ -68,7 +68,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
              ▼
 ┌──────────────────────────┐
 │  1. Problem Decomposer    │
-│  - LLM hybrid(Phi-3-mini  3B)
+│  - LLM hybrid(TinyLlama-1.1B)
 │  - Generates subproblems  │
 └────────────┬──────────────┘
              ▼
@@ -100,7 +100,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 **Goal:** Convert a raw natural language problem into atomic subproblems.
 **Techniques:**
 
-* Lightweight LLM (*Phi-3-mini*) for task segmentation.
+* Lightweight LLM (*TinyLlama-1.1B*) for task segmentation.
 
 **Output Example:**
 
