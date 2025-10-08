@@ -1,4 +1,4 @@
-# **System Design Document**
+# <div align = "center">**System Design Document**</div>
 
 ## Agentic Reasoning System
 
