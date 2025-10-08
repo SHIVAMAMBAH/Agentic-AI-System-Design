@@ -21,9 +21,7 @@ The system aims to:
 
 * Decompose complex logic problems into solvable subproblems.
 * Dynamically select the most appropriate solver or tool.
-* Execute subtasks sequentially or in parallel.
 * Verify intermediate and final results.
-* Produce transparent, human-readable reasoning traces.
 
 The final deliverable is a modular, interpretable pipeline optimized for **accuracy, transparency, and reproducibility**.
 
@@ -248,13 +246,9 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 agentic_reasoning_system/
 ├── decomposer/
 │   └── llm_based.py
-├── planner/
+├── Tool Mapper/
 │   └── tool_selector.py
-├── executor/
-│   ├── symbolic_solver.py
-│   ├── logic_solver.py
-│   └── calculator.py
-├── verifier/
+├── Verification & Logical Reasoning/
 │   └── consistency_checker.py
 ├── datasets/
 ├── main.py
@@ -275,5 +269,3 @@ agentic_reasoning_system/
 
 This **Agentic Reasoning System** bridges symbolic, algorithmic, and lightweight neural reasoning to produce reliable, interpretable, and verifiable solutions to logical problems.
 It emphasizes *planning, transparency,* and *modularity* — fulfilling the core objectives of the Saptang Labs Machine Learning Challenge while adhering to its restrictions on pre-trained reasoning-heavy LLMs.
-
----
