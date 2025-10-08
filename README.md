@@ -68,7 +68,7 @@ The system follows a **four-phase architecture** integrating planning, reasoning
              ▼
 ┌──────────────────────────┐
 │  1. Problem Decomposer    │
-│  - Rule-based / LLM hybrid│
+│  - LLM hybrid│
 │  - Generates subproblems  │
 └────────────┬──────────────┘
              ▼
@@ -101,10 +101,6 @@ The system follows a **four-phase architecture** integrating planning, reasoning
 **Techniques:**
 
 * Lightweight LLM (e.g., *Phi-3-mini*) for task segmentation.
-* Rule-based patterns for mathematical and logical structures:
-
-  * “If…then…” → Conditional logic parser
-  * “Find the number such that…” → Algebraic equation generator
 
 **Output Example:**
 
